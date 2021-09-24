@@ -23,3 +23,19 @@ Saves the meme and returns true if it was a success
 
 #### Return Type
 [Bool](https://docs.python.org/3/library/stdtypes.html#boolean)
+
+# GIF
+## Properties
+> **gif_url** [str](https://docs.python.org/3/library/stdtypes.html#str) - URL of the gif
+
+## Functions
+### save()
+
+#### Parameters
+**None**
+
+#### Returns
+Saves the gif and returns true if it was a success
+
+#### Return Type
+[Bool](https://docs.python.org/3/library/stdtypes.html#boolean)
