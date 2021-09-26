@@ -9,3 +9,4 @@ from .anime import *
 from .fun import *
 from .pokemon import *
 from .facts import *
+from .canvas import *
