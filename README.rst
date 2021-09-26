@@ -31,6 +31,6 @@ Example
 Links
 -----
 
-| `Documentation <https://github.com/Atidipt123/sra_py/blob/main/docs/api.md>`__
+| `Documentation <http://sra-py.rtfd.io/>`__
 | `Some Random API <https://some-random-api.ml>`__
 | `PyPI <https://pypi.org/project/sra_py>`__
