@@ -31,6 +31,11 @@ Example
 Links
 -----
 
-| `Documentation <https://sra-py.readthedocs.io/>`__
+| `Documentation <http://sra-py.rtfd.io/>`__
 | `Some Random API <https://some-random-api.ml>`__
 | `PyPI <https://pypi.org/project/sra_py>`__
+
+.. toctree::
+    
+    functions
+    return-types
