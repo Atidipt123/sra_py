@@ -36,6 +36,4 @@ Links
 | `PyPI <https://pypi.org/project/sra_py>`__
 
 .. toctree::
-    
-    functions
     return-types
