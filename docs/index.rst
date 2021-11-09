@@ -65,6 +65,13 @@ Anime
 | Return Type -
 `GIF <https://sra-py.readthedocs.io/en/latest/#class-gif>`__
 
+*def*  image(*endpoint*)
+^^^^^^^^^^^^^^
+
+| Returns the url of a random image
+| Return Type -
+`Str <https://docs.python.org/3/library/stdtypes.html#str>`__
+
 
 Return-Types
 ------------

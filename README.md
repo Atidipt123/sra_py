@@ -9,7 +9,7 @@ A python wrapper for [some-random-api](https://some-random-api.ml)
 pip install sra_py
 ```
 
-## Example
+## Examples
 ```py
 # Random Dog Image
 
@@ -18,6 +18,26 @@ import sra_py as sra
 dog = sra.dog()
 
 print(dog)
+
+#####
+
+# Lyrics
+
+import sra_py as sra
+
+ly = sra.lyrics("song title goes here")
+print(f'Title - {ly.title}\nAuthor - {ly.author}\n\n{ly.lyrics}')
+
+#####
+
+# Meme
+
+import sra_py as sra
+import os
+
+m = sra.meme()
+m.save("meme.png")
+os.startfile("meme.png")
 ```
 
 ## Links
