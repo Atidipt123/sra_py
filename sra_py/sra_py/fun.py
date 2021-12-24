@@ -1,4 +1,5 @@
 import requests
+from .errors import NotFound
 
 SR = "https://some-random-api.ml"
 
@@ -88,7 +89,7 @@ def base64(text: str , mode):
 
 	elif mode == "decode":
 		r = requests.request("GET", f"{SR}/base64?decode={text}").json()
-		return r['base64']
+		return r['text']
 
 	else:
 		raise NotFound("Invalid Mode")

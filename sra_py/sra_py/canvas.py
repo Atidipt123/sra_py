@@ -75,3 +75,19 @@ async def pixelate(avatar_url: str):
 			await se.close()
 
 	return im
+
+async def youtube_comment(username: str , comment: str , avatar_url: str):
+	async with aiohttp.ClientSession() as se:
+		async with se.get(f"https://some-random-api.ml/canvas/youtube-comment?username={username}&comment={comment.replace(' ' , '%20')}&avatar={avatar_url}") as img:
+			im = io.BytesIO(await img.read())
+			await se.close
+
+	return im
+
+async def its_so_stupid(avatar_url: str , text: str):
+	async with aiohttp.ClientSession() as se:
+		async with se.get(f"https://some-random-api.ml/canvas/its-so-stupid?avatar={avatar_url}&dog={text.replace(' ' , '%20')}") as img:
+			im = io.BytesIO(await img.read())
+			await se.close
+
+	return im
