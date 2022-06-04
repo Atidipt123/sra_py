@@ -6,8 +6,6 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name="sra_py",
     version="2.0.1",
-    author="Atidipt123",
-    author_email="thrwarriors74@gmail.com",
     description="A small example package",
     long_description=long_description,
     long_description_content_type="text/markdown",
