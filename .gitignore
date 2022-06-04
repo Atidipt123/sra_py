@@ -1,0 +1,7 @@
+dist/
+sra_py.egg-info
+example.py
+docs/md.md
+.vscode/
+__pycache__/
+premium.py
