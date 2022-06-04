@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="sra_py-Atidipt123",
+    name="sra_py",
     version="2.0.1",
     author="Atidipt123",
     author_email="thrwarriors74@gmail.com",
