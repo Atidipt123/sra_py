@@ -12,3 +12,13 @@ class RequiresPremium(Exception):
     """Exception raised when a premium endpoint is fetched without providing a premium key.
     """
     pass
+
+class InvalidAction(Exception):
+    """
+    Exception raised when an invalid action endpoint is requested.
+    """
+
+class SongNotFound(Exception):
+    """
+    Exception raised when the requested song was not found.
+    """

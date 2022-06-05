@@ -4,4 +4,5 @@ example.py
 docs/md.md
 .vscode/
 __pycache__/
+docs/
 premium.py

@@ -2,7 +2,7 @@
 A python wrapper for [some-random-api](https://some-random-api.ml)
 
 ## Requirements
-[Python 3.8.6 or more](https://python.org)  
+[Python 3.6 or more](https://python.org)  
 
 ## Installation
 ```cmd
@@ -29,6 +29,25 @@ import os
 client = Client()
 client.canvas.pixelate('IMAGE URL').save('pixelated.png')
 os.startfile('pixelated.png')
+```
+
+```py
+# anime gif
+from sra_py import Client
+import os
+
+client = Client()
+client.misc.anime('pat').save('pat.gif')
+os.startfile('pat.gif')
+```
+
+```py
+# lyrics of a song
+from sra_py import Client
+
+client = Client()
+l = client.misc.lyrics('song name')
+print(l.lyrics)
 ```
 
 ## Links

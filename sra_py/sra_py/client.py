@@ -1,5 +1,6 @@
 from .canvas import CanvasClient
 from .animal import AnimalClient
+from .misc import MiscClient
 
 class Client:
     """\n
@@ -12,6 +13,7 @@ class Client:
     def __init__(self):
         self.canvas = CanvasClient()
         self.animal = AnimalClient()
+        self.misc = MiscClient()
 
     def close(self):
         '''
@@ -20,3 +22,4 @@ class Client:
 
         self.canvas.session.close()
         self.animal.session.close()
+        self.misc.session.close()

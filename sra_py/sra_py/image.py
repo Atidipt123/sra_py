@@ -38,3 +38,13 @@ class Image:
             return None
         except:
             raise DownloadError('Could not download the image')
+
+class GIF(Image):
+    """
+    Represents a GIF.\n
+
+    `GIF.image_url` - URL of the GIF\n
+    `GIF.save()` - Save the GIF. 
+    """
+
+    pass
