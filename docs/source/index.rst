@@ -18,7 +18,7 @@ developed and can be installed using git.
 
 Note: this requires git.
 
-.. code:: cmd
+.. code:: shell
 
    pip install git+https://github.com/Atidipt123/sra_py.git
 
@@ -46,3 +46,8 @@ Now lets fetch a cat image using our client.
 Clients
 -------
 **Docs for Clients** - :doc:`client`
+
+.. toctree::
+   :maxdepth: 2
+
+   client
