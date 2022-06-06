@@ -15,6 +15,14 @@ class Client:
         self.animal = AnimalClient()
         self.misc = MiscClient()
 
+    @property
+    def version(self):
+        '''
+        Version of the client
+        '''
+
+        return '1.0'
+
     def close(self):
         '''
         Logs out from the website.
